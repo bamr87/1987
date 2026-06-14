@@ -74,8 +74,8 @@ seed.
 ## 4. Content Inventory
 
 - **Taxonomy:** History & Politics, Science & Technology, Arts & Culture, Society & Economics, People.
-- **Knowledge table:** `README.md` → `## Notable Events of 1987` (18 rows across all five categories; all 18 rows link to dedicated files).
-- **Dedicated topic files (18):**
+- **Knowledge table:** `README.md` → `## Notable Events of 1987` (20 rows across all five categories; all 20 rows link to dedicated files).
+- **Dedicated topic files (20):**
   - `history-politics/reagan-berlin-speech.md` — Reagan's "Tear Down This Wall" speech (June 12, 1987).
   - `history-politics/iran-contra.md` — Iran-Contra affair congressional hearings (July 1987).
   - `history-politics/inf-treaty.md` — INF Treaty signing (December 8, 1987).
@@ -91,18 +91,20 @@ seed.
   - `society-economics/black-monday.md` — Black Monday stock market crash (October 19, 1987).
   - `society-economics/prozac-fda-approval.md` — FDA approves Prozac (December 29, 1987).
   - `society-economics/act-up-founding.md` — ACT UP founding (March 12, 1987).
+  - `society-economics/world-series-1987.md` — 1987 World Series: Minnesota Twins first championship (October 17–25, 1987).
   - `people/mathias-rust.md` — Mathias Rust flight to Red Square (May 28, 1987).
+  - `people/gary-hart.md` — Gary Hart withdrawal from 1988 presidential race (May 8, 1987).
   - `people/klaus-barbie.md` — Klaus Barbie conviction for crimes against humanity (July 4, 1987).
   - `people/rudolf-hess.md` — Rudolf Hess (death, August 17, 1987).
-- **Coverage:** History & Politics has 5 files; Science & Technology has 3 files; Arts & Culture has 4 files; Society & Economics has 3 files; People has 3 files. All categories have ≥3 dedicated files; all 18 README rows link to dedicated files.
+- **Coverage:** History & Politics has 5 files; Science & Technology has 3 files; Arts & Culture has 4 files; Society & Economics has 4 files; People has 4 files. All categories have ≥3 dedicated files; all 20 README rows link to dedicated files.
 
 ## 5. Structure Inventory
 
 Generated artifacts (maintained by `build-structure`):
-- `TIMELINE.md` — 19-row chronological table including all 18 dedicated files; two new entries added in tick 9 (Klaus Barbie Jul 4, Michael Jackson's *Bad* Aug 31).
-- Category index pages `<category-slug>/index.md` — generated for all five taxonomy entries; History & Politics lists 5 topics, Science & Technology lists 3 topics, Arts & Culture lists 4 topics, Society & Economics lists 3 topics, People lists 3 topics.
-- `INDEX.md` — master index grouping all 18 topic files by category, with pointers to category indices and the timeline.
-- Cross-reference `## Related` blocks — generated (marker-wrapped) inside all 18 dedicated topic files.
+- `TIMELINE.md` — 21-row chronological table including all 20 dedicated files; two new entries added in tick 10 (Gary Hart May 8, 1987 World Series Oct 17).
+- Category index pages `<category-slug>/index.md` — generated for all five taxonomy entries; History & Politics lists 5 topics, Science & Technology lists 3 topics, Arts & Culture lists 4 topics, Society & Economics lists 4 topics, People lists 4 topics.
+- `INDEX.md` — master index grouping all 20 topic files by category, with pointers to category indices and the timeline.
+- Cross-reference `## Related` blocks — generated (marker-wrapped) inside all 20 dedicated topic files.
 
 ## 6. Growth Loop
 
@@ -364,3 +366,15 @@ Ninth autonomous growth tick via `/grow`. Planning prioritized the two most unde
 - **Record**: Moved tick 9 items to ROADMAP Done; refreshed Backlog (4th Society & Economics, 5th People, overdue /evolve); synced seed §4–5 (16→18 files).
 
 Coverage after this tick: **18 dedicated topic files** across all five categories. History & Politics has 5 files, Science & Technology has 3 files, Arts & Culture has **4 files**, Society & Economics has 3 files, People has **3 files**. README has 18 rows, all linked.
+
+### Tick 10 — 2026-06-14
+
+Tenth autonomous growth tick via `/grow`. Planning prioritized filling the two equally under-represented categories — Society & Economics and People (each at 3 files) — by selecting high-impact backlog items covering 1987 sports and American political history. Items completed:
+
+- **Content**: Researched the **1987 World Series** (October 17–25, 1987) via Wikipedia and Baseball Almanac. Created `society-economics/world-series-1987.md` — the **fourth file in Society & Economics**. Key facts verified: Minnesota Twins defeated St. Louis Cardinals 4–3; first World Series played entirely indoors (Hubert H. Humphrey Metrodome); first Series where the home team won every game (home team won all 7); Frank Viola named World Series MVP (2–1, 3.72 ERA); Tom Kelly managed the Twins, Whitey Herzog the Cardinals; Dan Gladden's Game 1 grand slam, Kent Hrbek's Game 6 grand slam; crowd noise reached 125 decibels; "Homer Hankies" became iconic; Twins' .525 winning percentage lowest ever for a champion at the time (later surpassed by 2006 Cardinals); total attendance 387,138; last World Series to feature a day game. Added new README knowledge-table row linked to the file.
+- **Content**: Researched **Gary Hart's 1987 presidential campaign withdrawal** (May 8, 1987) via Wikipedia and HISTORY.com. Created `people/gary-hart.md` — the **fourth file in People**. Key facts verified: Hart declared candidacy April 13, 1987 as the Democratic frontrunner after Mario Cuomo opted out; *Miami Herald* staked out his Washington townhouse after a tip and observed Donna Rice; "Monkey Business" yacht photographs surfaced; Hart's famous "Follow me around" challenge issued just before the stakeout; suspended campaign May 8, 1987 with the *Washington Post* poised to publish another story; re-entered December 15, 1987 but received ~4% in New Hampshire; withdrew permanently after Super Tuesday; Michael Dukakis became the nominee and lost to George H.W. Bush. Scandal permanently changed how U.S. media covers candidates' personal lives. Added new README knowledge-table row linked to the file.
+- **Structure**: Refreshed TIMELINE.md (2 new entries inserted chronologically: Gary Hart May 8 and World Series Oct 17; timeline grows from 19 to 21 rows); INDEX.md (2 new entries under Society & Economics and People); `society-economics/index.md` (World Series row added); `people/index.md` (Gary Hart row added; entries reordered chronologically). Updated marker-wrapped `## Related` blocks in `black-monday.md` (World Series link added) and `mathias-rust.md` (Gary Hart link added). Both new files include marker-wrapped `## Related` blocks.
+- **Verify**: README now 20 rows (+2 new; all 20 link to dedicated files); no duplicate rows; all internal links resolve; both new files carry required frontmatter and ≥2 authoritative sources (Wikipedia + Baseball Almanac; Wikipedia + HISTORY.com).
+- **Record**: Moved tick 10 items to ROADMAP Done; refreshed Backlog (/evolve overdue, 4th Science & Technology, 6th People); synced seed §4–5 (18→20 files).
+
+Coverage after this tick: **20 dedicated topic files** across all five categories. History & Politics has 5 files, Science & Technology has 3 files, Arts & Culture has 4 files, Society & Economics has **4 files**, People has **4 files**. README has 20 rows, all linked.
