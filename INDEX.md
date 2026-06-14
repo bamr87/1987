@@ -32,12 +32,14 @@ _Category index: [arts-culture/index.md](arts-culture/index.md)_
 _Category index: [society-economics/index.md](society-economics/index.md)_
 
 - [ACT UP Founded (March 12, 1987)](society-economics/act-up-founding.md)
+- [1987 World Series (October 17–25, 1987)](society-economics/world-series-1987.md)
 - [Black Monday (October 19, 1987)](society-economics/black-monday.md)
 - [FDA Approves Prozac (December 29, 1987)](society-economics/prozac-fda-approval.md)
 
 ## People
 _Category index: [people/index.md](people/index.md)_
 
+- [Gary Hart — Withdrawal from Presidential Race (May 8, 1987)](people/gary-hart.md)
 - [Mathias Rust — Flight to Red Square (May 28, 1987)](people/mathias-rust.md)
 - [Klaus Barbie — Convicted of Crimes Against Humanity (July 4, 1987)](people/klaus-barbie.md)
 - [Rudolf Hess (death, August 17, 1987)](people/rudolf-hess.md)
